@@ -1,0 +1,11 @@
+
+# Input File
+File_Food_Choice        : 'data_food_choice.csv'
+
+# Constants for Recommender Systems
+Cust_Acq:
+  NUM_CUST_SIM          :  10  # No. of smilar customers, for example we use X(=10) most similar customers
+  NUM_FOOD_RECOMMENDED  :  3   # No. of recommended outlets
+
+# Output File
+File_Recommendation      :  'recommended_foods.pkl'
